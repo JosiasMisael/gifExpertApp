@@ -7,10 +7,17 @@ body{
 }
 
 input{
-  color: darkorange;
+  color:forestgreen;
   font-size: 1.3rem;
   width: 100%;
 }
+
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 
 .carta{
   align-content: center;
@@ -27,11 +34,6 @@ input{
 }
 
 .card img{
-   max-height: 170px;
+  max-height: 170px;
 }
 
-.card-grid{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
